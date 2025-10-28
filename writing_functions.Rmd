@@ -284,8 +284,8 @@ nsduh_import(nsduh_html, table_num = 1)
 nsduh_results = 
   bind_rows(
     nsduh_import(nsduh_html, 1),
-    nsduh_import(nsduh_html, 4),
-    nsduh_import(nsduh_html, 5)
+    nsduh_import(nsduh_html, 2),
+    nsduh_import(nsduh_html, 3)
   )
 
 ```
